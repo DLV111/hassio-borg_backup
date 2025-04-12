@@ -19,7 +19,7 @@ port: 23
 path: ./borg/my-hassio-server
 archive: hassio
 passphrase: a secret passphrase
-borg_opts: --remote-path=borg12
+borg_remote_path: borg12  # use PATH as borg executable on the remote (default: “borg”)
 prune_options: '--keep-daily=8 --keep-weekly=5 --keep-monthly=13'
 ```
 

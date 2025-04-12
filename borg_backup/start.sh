@@ -2,6 +2,7 @@
 export BORG_REPO="ssh://$(bashio::config 'user')@$(bashio::config 'host'):$(bashio::config 'port')/$(bashio::config 'path')"
 export BORG_PASSPHRASE="$(bashio::config 'passphrase')"
 export BORG_BASE_DIR="/data"
+export BORG_REMOTE_PATH="$(bashio::config 'borg_remote_path')"
 export BORG_RSH="ssh -i ~/.ssh/id_ed25519 -o UserKnownHostsFile=/data/known_hosts"
 
 PUBLIC_KEY=`cat ~/.ssh/id_ed25519.pub`

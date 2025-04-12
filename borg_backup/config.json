@@ -17,7 +17,7 @@
     "path": "~",
     "archive": "hassio",
     "passphrase": null,
-    "borg_opts": null,
+    "borg_remote_path": "borg",
     "prune_options": "--keep-daily=8 --keep-weekly=5 --keep-monthly=13"
   },
   "schema": {
@@ -27,7 +27,7 @@
     "path": "str",
     "archive": "str",
     "passphrase": "password",
-    "borg_opts": "str",
+    "borg_remote_path": "str",
     "prune_options": "str?"
   },
   "arch": [
