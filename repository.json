@@ -1,5 +1,5 @@
 {
-  "name": "Hassio Add-On Borg Backup",
-  "url": "https://github.com/yeah/hassio-borg_backup",
-  "maintainer": "Jan <hi@jan.sh>"
+  "name": "Hassio Add-On Borg Backup - DLV111",
+  "url": "https://github.com/DLV111/hassio-borg_backup.git",
+  "maintainer": "10554724+DLV111@users.noreply.github.com"
 }
