@@ -19,6 +19,7 @@ port: 23
 path: ./borg/my-hassio-server
 archive: hassio
 passphrase: a secret passphrase
+borg_opts: --remote-path=borg12
 prune_options: '--keep-daily=8 --keep-weekly=5 --keep-monthly=13'
 ```
 
