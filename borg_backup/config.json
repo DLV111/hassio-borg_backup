@@ -1,6 +1,6 @@
 {
   "name": "BorgBackup-DLV111",
-  "version": "0.57",
+  "version": "0.58",
   "slug": "borg_backup",
   "description": "BorgBackup as a Hassio Add-On DLV111 Fork",
   "url": "https://github.com/DLV111/hassio-borg_backup.git",
